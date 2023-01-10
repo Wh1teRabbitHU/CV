@@ -1,0 +1,27 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "development": "browser-sync start --server --ss \"src\" --files \"src\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wh1teRabbitHU/CV.git"
+  },
+  "keywords": [
+    "tamas",
+    "ruszka",
+    "cv"
+  ],
+  "author": "tamas-ruszka",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Wh1teRabbitHU/CV/issues"
+  },
+  "homepage": "https://github.com/Wh1teRabbitHU/CV#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11"
+  }
+}
