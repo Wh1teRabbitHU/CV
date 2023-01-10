@@ -214,14 +214,13 @@ hr {
     position: relative;
     display: flex;
     flex-direction: row;
-    overflow: visible;
-    padding-bottom: 18px;
+    padding-bottom: 14px;
     margin-bottom: 4px;
     min-height: 24px;
 }
 
-.period.end {
-    margin-top: 18px;
+.experience .period.end {
+    margin-top: 24px;
 }
 
 .skills .group {
@@ -249,6 +248,7 @@ hr {
     width: 24px;
     height: 16px;
     content: ' ';
+    top: 0;
     background-color: #3B3B3D;
 }
 
@@ -258,7 +258,7 @@ hr {
 }
 
 .period .timeline .start {
-    bottom: 0;
+    top: 100%;
 }
 
 .period .timeline .line {
@@ -301,6 +301,10 @@ hr {
     font-size: 0.9rem;
 }
 
+.projects {
+    margin-top: 1px;
+}
+
 .projects h3 {
     margin: 0;
     padding: 0;
@@ -309,7 +313,7 @@ hr {
 .projects .company {
     font-size: 1.3rem;
     margin-left: 58px;
-    margin-top: 24px;
+    margin-top: 22px;
     margin-bottom: 18px;
     padding-left: 2px;
     border-bottom: 1px solid #3B3B3D;
