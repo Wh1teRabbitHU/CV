@@ -189,10 +189,113 @@ hr {
     color: #3B3B3D;
 }
 
+.main-section h2 {
+    border-bottom: 1px solid #3B3B3D;
+    padding-top: 18px;
+    padding-bottom: 4px;
+    margin: 0 0 16px;
+}
+
 .introduction h2 {
+    padding-top: 0;
     margin: 0;
 }
 
 .introduction .details {
+    font-size: 0.9rem;
+}
+
+.introduction .details p {
+    margin-bottom: 0;
+}
+
+.period {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    padding-bottom: 18px;
+    margin-bottom: 4px;
+    min-height: 24px;
+}
+
+.period.end {
+    margin-top: 18px;
+}
+
+.skills .group {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.skills .group .category {
+    font-size: 1.1rem;
+    min-width: 160px;
+    font-weight: 400;
+}
+
+.period .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+}
+
+.period .timeline .end,
+.period .timeline .start {
+    position: absolute;
+    border-radius: 4px;
+    width: 24px;
+    height: 16px;
+    content: ' ';
+    background-color: #3B3B3D;
+}
+
+.period .timeline .end.small {
+    border-radius: 4px;
+    width: 16px;
+}
+
+.period .timeline .start {
+    bottom: 0;
+}
+
+.period .timeline .line {
+    position: absolute;
+    border-left: 4px solid #3B3B3D;
+    height: 100%;
+}
+
+.period .timeline .line.break {
+    border-left-style: dashed;
+}
+
+.period .company {
+    width: 160px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 8px;
+}
+
+.period .position {
+    display: flex;
+    flex-direction: column;
+}
+
+.period .position .title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.period .position .period {
+    margin: 0;
+    padding: 0;
+    color: #6B6B6B;
+    font-size: 1.1rem;
+}
+
+.period .position .details {
     font-size: 0.9rem;
 }
