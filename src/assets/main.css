@@ -10,7 +10,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;
+    background-color: #eaeaea;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 100;
 }
@@ -193,6 +193,7 @@ hr {
     border-bottom: 1px solid #3B3B3D;
     padding-top: 18px;
     padding-bottom: 4px;
+    padding-left: 2px;
     margin: 0 0 16px;
 }
 
@@ -298,4 +299,33 @@ hr {
 
 .period .position .details {
     font-size: 0.9rem;
+}
+
+.projects h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.projects .company {
+    font-size: 1.3rem;
+    margin-left: 58px;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    padding-left: 2px;
+    border-bottom: 1px solid #3B3B3D;
+}
+
+.projects .subtitle {
+    font-size: 1rem;
+}
+
+.projects .details {
+    font-size: 0.9rem;
+    margin-right: 12px;
+}
+
+.projects .technologies {
+    font-size: 0.9rem;
+    color: #6B6B6B;
+    font-style: italic;
 }
