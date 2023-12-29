@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Wh1teRabbitHU/CV#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.11"
+    "browser-sync": "^3.0.2"
   }
 }
