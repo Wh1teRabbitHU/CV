@@ -2,15 +2,15 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
-import ResumePage from './pages/resume';
-
 import './main.scss';
+
+import Resume from './pages/resume';
 
 const Main = () => {
 	return (
 		<HashRouter>
 			<Routes>
-				<Route path='/' element={<ResumePage />} />
+				<Route path='/' element={<Resume />} />
 			</Routes>
 		</HashRouter>
 	);
