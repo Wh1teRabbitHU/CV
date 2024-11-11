@@ -2,9 +2,12 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "development": "browser-sync start --server --ss \"docs\" --files \"docs\""
+    "build": "npx webpack --mode=production --config webpack.prod.js",
+    "watch": "webpack serve --mode=development --hot --config webpack.dev.js",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,38 @@
   },
   "homepage": "https://github.com/Wh1teRabbitHU/CV#readme",
   "devDependencies": {
-    "browser-sync": "^3.0.2"
+    "@jest/globals": "^29.7.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.11.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "html-webpack-plugin": "^5.6.3",
+    "husky": "^9.1.6",
+    "sass": "^1.80.6",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.4",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-scss": "^4.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^4.9.5",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2",
+    "webpack-merge": "^5.10.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
   }
 }
