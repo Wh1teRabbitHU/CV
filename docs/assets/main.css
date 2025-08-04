@@ -210,6 +210,17 @@ hr {
     margin-bottom: 0;
 }
 
+.period {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+
+.experience .period.end {
+    margin-top: 24px;
+}
+
 .skills .group {
     display: flex;
     margin-bottom: 8px;
@@ -224,17 +235,6 @@ hr {
 .skills .group .skill-list .obsolete {
     color: #b0b0b0;
     font-style: italic;
-}
-
-.period {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 4px;
-}
-
-.experience .period.end {
-    margin-top: 24px;
 }
 
 .period .timeline {
