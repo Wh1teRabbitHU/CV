@@ -3,7 +3,7 @@ import React from 'react';
 import { ReactChildrenType } from '../../types/common/react-children';
 import If from '../common/if';
 
-import './project.scss';
+import './project-period.scss';
 
 interface ProjectPeriodProps {
 	title: string;
