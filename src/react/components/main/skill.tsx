@@ -2,14 +2,14 @@ import React from 'react';
 
 import { ReactChildrenType } from '../../types/common/react-children';
 
-import './skills.scss';
+import './skill.scss';
 
-interface SkillsProps {
+interface SkillProps {
 	title: string;
 	children: ReactChildrenType;
 }
 
-const Skills = ({ title, children }: SkillsProps) => {
+const Skill = ({ title, children }: SkillProps) => {
 	return (
 		<div className='skills'>
 			<h2 className='title'>{title}</h2>
@@ -19,4 +19,4 @@ const Skills = ({ title, children }: SkillsProps) => {
 	);
 };
 
-export default Skills;
+export default Skill;

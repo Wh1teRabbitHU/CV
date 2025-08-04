@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './skills.scss';
+import './skill-group.scss';
 
 interface SkillGroupProps {
 	category: string;
