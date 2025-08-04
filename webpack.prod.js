@@ -1,6 +1,7 @@
 import path from 'path';
 import mergeTool from 'webpack-merge';
 import common from './webpack.common.js';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 import { __dirname, packageJson } from './node-env.js';
 
@@ -14,6 +15,11 @@ export default function webpackConfig() {
 		},
 		optimization: {
 			minimize: true
-		}
+		},
+		plugins: [
+			new CopyWebpackPlugin({
+				patterns: [{ from: path.resolve(__dirname, 'src/static/CNAME'), to: path.resolve(__dirname, 'docs') }]
+			})
+		]
 	});
 }
