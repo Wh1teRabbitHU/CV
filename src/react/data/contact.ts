@@ -28,7 +28,7 @@ const ContactData: ContactItem[] = [
 		type: 'text',
 		icon: 'phone',
 		title: 'Phone',
-		value: '+49 176 4272 4520'
+		value: '+36 30 0733 043'
 	},
 	{
 		type: 'text',
